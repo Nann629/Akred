@@ -46,30 +46,30 @@ class DokumenModel extends Model
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
 
-    // public function getdokkumen($iddokumen = false)
-    // {
-    //     # code...
-    //     if ($iddokumen === false) {
-    //         return $this->db->table('dokumen')
-    //             ->join('user', 'user.user_iddokumen = iddokumen.users_id')
-    //             ->get()->getResult();
-    //     }
-    // }
+    public function getdokkumen($iddokumen = false)
+    {
+        # code...
+        if ($iddokumen === false) {
+            return $this->db->table('dokumen')
+                ->join('user', 'user.user_iddokumen = iddokumen.users_id')
+                ->get()->getResult();
+        }
+    }
 
-    // public function getdokumen($iddokumen = false)
-    // {
-    //     # code...
-    //     if ($iddokumen === false) {
-    //         return $this->table('dokumen')
-    //             ->orderby('iddokumen', 'DESC')
-    //             ->join('sub', 'sub.idsub = dokumen.idsub')
-    //             ->join('user', 'user.iduser = dokumen.iduser')
-    //             ->get()->getResult();
-    //     }
-    //     return $this->table('dokumen')
-    //         ->orderby('iddokumen', 'DESC')
-    //         ->join('sub', 'sub.idsub = dokumen.idsub')
-    //         ->join('user', 'user.iduser = dokumen.iduser')
-    //         ->getWhere(['iddokumen' => $iddokumen])->getResultObjek();
-    // }
+    public function getdokumen($iddokumen = false)
+    {
+        # code...
+        if ($iddokumen === false) {
+            return $this->table('dokumen')
+                ->orderby('iddokumen', 'DESC')
+                ->join('sub', 'sub.idsub = dokumen.idsub')
+                ->join('user', 'user.iduser = dokumen.iduser')
+                ->get()->getResult();
+        }
+        return $this->table('dokumen')
+            ->orderby('iddokumen', 'DESC')
+            ->join('sub', 'sub.idsub = dokumen.idsub')
+            ->join('user', 'user.iduser = dokumen.iduser')
+            ->getWhere(['iddokumen' => $iddokumen])->getResultObjek();
+    }
 }

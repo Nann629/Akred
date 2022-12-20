@@ -1,0 +1,1072 @@
+CRITICAL - 2022-12-06 00:30:47 --> Unsupported operand types: string + int
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:31:08 --> Undefined array key "idsub"
+in APPPATH\Views\sub\index.php on line 72.
+ 1 APPPATH\Views\sub\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsub"', 'APPPATH\\Views\\sub\\index.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sub\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/sub/index.php', [], true)
+ 5 APPPATH\Controllers\Sub.php(26): view('/sub/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sub->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sub))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:31:25 --> Undefined array key "idsub"
+in APPPATH\Views\sub\index.php on line 72.
+ 1 APPPATH\Views\sub\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsub"', 'APPPATH\\Views\\sub\\index.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sub\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/sub/index.php', [], true)
+ 5 APPPATH\Controllers\Sub.php(26): view('/sub/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sub->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sub))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:31:32 --> Unsupported operand types: string + int
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:33:07 --> Unsupported operand types: string + int
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:34:05 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:34:19 --> Object of class mysqli could not be converted to string
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:34:55 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$array
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 APPPATH\Controllers\Dokumen.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$array', 'APPPATH\\Controllers\\Dokumen.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:35:02 --> Object of class mysqli could not be converted to string
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:36:37 --> Unsupported operand types: string + int
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:40:05 --> Unsupported operand types: string + int
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:44:01 --> Call to undefined method App\Models\DokumenModel::getData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(18): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:44:26 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(20): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:50:38 --> Call to undefined method App\Models\DokumenModel::getData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:50:55 --> Undefined variable $judul
+in APPPATH\Views\dokumen\index.php on line 6.
+ 1 APPPATH\Views\dokumen\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\dokumen\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:52:21 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 00:54:48 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:00:31 --> Call to undefined function App\Controllers\mysql_num_rows()
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:00:54 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:04:10 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\nang\app\Controllers\Dokumen.php on line 21
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Dokumen.php(21): view('dokumen/index', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:05:39 --> Call to undefined method App\Models\DokumenModel::result_array
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(20): CodeIgniter\Model->__call('result_array', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:05:52 --> Call to undefined method App\Models\DokumenModel::array
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(20): CodeIgniter\Model->__call('array', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:06:09 --> Call to undefined method App\Models\DokumenModel::getData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(20): CodeIgniter\Model->__call('getData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:07:51 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:11:34 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in C:\xampp\htdocs\nang\app\Controllers\Dokumen.php on line 21
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Dokumen.php(21): view('dokumen/index', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:12:17 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 APPPATH\Views\dokumen\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:12:56 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 APPPATH\Views\dokumen\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:13:35 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:13:54 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:14:50 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:22:22 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:22:51 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 APPPATH\Views\dokumen\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:23:31 --> Undefined variable $list
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:29:08 --> Undefined variable $judul
+in APPPATH\Views\dokumen\index.php on line 6.
+ 1 APPPATH\Views\dokumen\index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\dokumen\\index.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:29:25 --> Undefined variable $dokumen
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dokumen', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:29:42 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:31:27 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result_array
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result_array', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:35:44 --> Undefined variable $id
+in APPPATH\Controllers\Dokumen.php on line 17.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Dokumen.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:36:21 --> Undefined variable $file
+in APPPATH\Controllers\Dokumen.php on line 17.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Controllers\\Dokumen.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-06 01:36:35 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `file`\nF...', 0)
+#1 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `file`\nF...')
+#2 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `file`\nF...')
+#3 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `file`\nF...', Array, false)
+#4 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nang\app\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+#7 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+#8 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-06 01:36:35 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `file`
+FROM `dokumen`
+WHERE `id` IS NULL
+ LIMIT 20, 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `file`
+FROM `dokumen`
+WHERE `id` IS NULL
+ LIMIT 20, 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `file`
+FROM `dokumen`
+WHERE `id` IS NULL
+ LIMIT 20, 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `file`
+FROM `dokumen`
+WHERE `id` IS NULL
+ LIMIT 20, 10', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:37:45 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result_array
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result_array', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:39:50 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$result_array
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$result_array', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:41:21 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:45:36 --> Attempt to read property "getRow" on array
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 APPPATH\Controllers\Dokumen.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "getRow" on array', 'APPPATH\\Controllers\\Dokumen.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:46:01 --> Call to a member function getRow() on array
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:46:27 --> Call to a member function getRowArray() on array
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:46:47 --> Call to a member function getRowArray() on array
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:46:58 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResult
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$getResult', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:47:15 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:52:39 --> Call to undefined method App\Models\DokumenModel::getAllItem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getAllItem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:53:40 --> Call to undefined method App\Models\DokumenModel::getAllItem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getAllItem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:53:42 --> Call to undefined method App\Models\DokumenModel::getAllItem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getAllItem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:53:43 --> Call to undefined method App\Models\DokumenModel::getAllItem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getAllItem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:54:00 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:54:26 --> Undefined variable $file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:54:47 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:54:54 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:55:09 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Model.php on line 772
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get('file')
+ 2 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('get', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:55:15 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:55:34 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:55:37 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:56:30 --> Undefined property: mysqli::$idsub
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$idsub', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:58:36 --> Attempt to read property "idsub" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idsub" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 01:59:12 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:02:49 --> Call to undefined method App\Models\DokumenModel::getRowArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getRowArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:03:07 --> Call to undefined method App\Models\DokumenModel::getAllItem
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getAllItem', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:06:12 --> Undefined variable $list
+in APPPATH\Views\dokumen\index.php on line 30.
+ 1 APPPATH\Views\dokumen\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'APPPATH\\Views\\dokumen\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:06:29 --> Call to a member function getRowArray() on array
+in APPPATH\Controllers\Dokumen.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:06:58 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:07:17 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:07:36 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:07:37 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:07:38 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:07:38 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:12 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:13 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:13 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:14 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:14 --> Undefined property: mysqli::$file
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$file', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:37 --> Call to undefined method App\Models\DokumenModel::getRowArray
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Dokumen.php(17): CodeIgniter\Model->__call('getRowArray', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:44 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:08:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:09:09 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:12:35 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:15:40 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:15:41 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:15:55 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:16:54 --> Undefined variable $judul
+in APPPATH\Views\dokumen\index.php on line 50.
+ 1 APPPATH\Views\dokumen\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $judul', 'APPPATH\\Views\\dokumen\\index.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:20:07 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:21:23 --> Attempt to read property "file" on null
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 APPPATH\Views\dokumen\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "file" on null', 'APPPATH\\Views\\dokumen\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dokumen\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 5 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:23:36 --> Cannot use object of type App\Models\DokumenModel as array
+in APPPATH\Views\dokumen\index.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dokumen/index', [], true)
+ 4 APPPATH\Controllers\Dokumen.php(18): view('dokumen/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 02:27:20 --> Undefined property: App\Controllers\Dokumen::$dokumen
+in APPPATH\Controllers\Dokumen.php on line 25.
+ 1 APPPATH\Controllers\Dokumen.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dokumen::$dokumen', 'APPPATH\\Controllers\\Dokumen.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:15:58 --> Undefined property: App\Controllers\Dokumen::$dokumen
+in APPPATH\Controllers\Dokumen.php on line 25.
+ 1 APPPATH\Controllers\Dokumen.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dokumen::$dokumen', 'APPPATH\\Controllers\\Dokumen.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:30:34 --> Undefined property: App\Controllers\Dokumen::$model
+in APPPATH\Controllers\Dokumen.php on line 35.
+ 1 APPPATH\Controllers\Dokumen.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dokumen::$model', 'APPPATH\\Controllers\\Dokumen.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:31:10 --> Undefined property: App\Controllers\Dokumen::$model
+in APPPATH\Controllers\Dokumen.php on line 35.
+ 1 APPPATH\Controllers\Dokumen.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dokumen::$model', 'APPPATH\\Controllers\\Dokumen.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:35:41 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$model
+in APPPATH\Controllers\Dokumen.php on line 34.
+ 1 APPPATH\Controllers\Dokumen.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\HTTP\\IncomingRequest::$model', 'APPPATH\\Controllers\\Dokumen.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:37:59 --> Object of class App\Models\DokumenModel could not be converted to string
+in APPPATH\Controllers\Dokumen.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:38:20 --> Object of class App\Models\DokumenModel could not be converted to string
+in APPPATH\Controllers\Dokumen.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:39:20 --> Object of class App\Models\DokumenModel could not be converted to string
+in APPPATH\Controllers\Dokumen.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dokumen->tambah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokumen))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-06 03:41:05 --> Undefined array key "idsub"
+in APPPATH\Views\sub\index.php on line 72.
+ 1 APPPATH\Views\sub\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsub"', 'APPPATH\\Views\\sub\\index.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sub\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/sub/index.php', [], true)
+ 5 APPPATH\Controllers\Sub.php(26): view('/sub/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sub->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sub))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,41 @@
+ERROR - 2022-12-16 16:59:16 --> mysqli_sql_exception: Unknown column 'sub.idkriteria' in 'on clause' in C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nang\app\Models\MSub.php(53): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\nang\app\Controllers\Sub.php(23): App\Models\MSub->getsub()
+#7 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Sub->index()
+#8 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sub))
+#9 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nang\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\nang\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-16 16:59:16 --> Unknown column 'sub.idkriteria' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `sub`
+JOIN `kriteria` ON `kriteria`.`idkriteria` = `sub`.`idkriteria`
+ORDER BY `idsub` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `sub`
+JOIN `kriteria` ON `kriteria`.`idkriteria` = `sub`.`idkriteria`
+ORDER BY `idsub` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `sub`
+JOIN `kriteria` ON `kriteria`.`idkriteria` = `sub`.`idkriteria`
+ORDER BY `idsub` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `sub`
+JOIN `kriteria` ON `kriteria`.`idkriteria` = `sub`.`idkriteria`
+ORDER BY `idsub` DESC', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\MSub.php(53): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Sub.php(23): App\Models\MSub->getsub()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sub->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sub))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

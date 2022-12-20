@@ -32,9 +32,9 @@ $routes->setAutoRoute(true);
  * Route Definitions
  * --------------------------------------------------------------------
  */
- $routes->get('/', 'auth::index');
+//  $routes->get('/', 'auth::index');
 // $routes->get('/auth', 'auth::index');
-$routes->resource('Auth/login');
+// $routes->resource('Auth/login');
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.

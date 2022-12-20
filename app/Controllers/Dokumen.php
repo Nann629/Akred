@@ -11,7 +11,7 @@ class Dokumen extends BaseController
 {
     public function __construct()
     {
-        // $this->model = new DokumenModel();
+        $this->model = new DokumenModel();
     }
     public function index()
     {
@@ -30,14 +30,14 @@ class Dokumen extends BaseController
             'tgl_upload' => $this->request->getVar('tgl_upload'),
             'idsub' => $this->request->getVar('idsub'),
             'iduser' => $this->request->getVar('iduser'),
-];
+        ];
         //insert data
         $success = $this->$modelku->getPost($data);
-        if($success){
-        session()->setFlashdata('message', 'Ditambahkan');
-        return redirect()->to(base_url('dokumen'));
+        if ($success) {
+            session()->setFlashdata('message', 'Ditambahkan');
+            return redirect()->to(base_url('dokumen'));
+        }
     }
-}
 
     public function hapus($id)
     {
